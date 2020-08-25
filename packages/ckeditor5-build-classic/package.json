@@ -1,6 +1,6 @@
 {
   "name": "@madxcompany/ckeditor5-build-classic",
-  "version": "21.0.1",
+  "version": "21.0.2",
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor. version madx",
   "keywords": [
     "ckeditor5-build",
@@ -47,6 +47,8 @@
     "@ckeditor/ckeditor5-table": "^21.0.0",
     "@ckeditor/ckeditor5-theme-lark": "^21.0.0",
     "@ckeditor/ckeditor5-typing": "^21.0.0",
+    "@ckeditor/ckeditor5-alignment": "^21.0.0",
+    "@ckeditor/ckeditor5-font": "^21.0.0",
     "postcss-loader": "^3.0.0",
     "raw-loader": "^4.0.1",
     "style-loader": "^1.2.1",
@@ -74,9 +76,5 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
-  },
-  "dependencies": {
-    "@ckeditor/ckeditor5-alignment": "^21.0.0",
-    "@ckeditor/ckeditor5-font": "^21.0.0"
   }
 }
